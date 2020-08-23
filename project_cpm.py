@@ -7,6 +7,17 @@ Created on Mon Jul 27 22:01:40 2020
 #
 #    CRITICAL PATH METHOD
 #
+#    input is an Excel spreadsheet (sheet1)
+#    column 1: Activity name/description
+#    column 2: Index associated with the activity (1,2,3....)
+#    column 3: Activity duration
+#    column 4: Index of that activity that this activity depends on            
+#    column 5: ....
+#    column n: One index per column. 0 if no dependency
+#    see sample input excel file: cpm_data_1.xlsx
+#    The spreadsheet is based on an example from Chapter 5 of
+#    "Matching Supply with Demand" - G. Cachon and C. Terwiesch, 3rd Ed.
+#
 import pandas as pd
 import numpy as np
 import sys
