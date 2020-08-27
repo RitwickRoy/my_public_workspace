@@ -1,4 +1,7 @@
 # my_public_workspace
+
+Input spreadsheet format:
+
 CRITICAL PATH METHOD
 #
 #    input is an Excel spreadsheet (sheet1)
@@ -13,17 +16,19 @@ CRITICAL PATH METHOD
 #    "Matching Supply with Demand" - G. Cachon and C. Terwiesch, 3rd Ed.
 
 Required packages:
+
 numpy, pandas and xlrd. 
 To install these packages:
 pip install pandas
 pip install numpy
 pip install xlrd
 
-To execute:
+Program execution:
 python project_cpm.py
 
-Output from sample data: cpm_data_1.xlsx
-enter Excel filename:  
+Sample output:
+
+enter Excel filename: cpm_data_1.xlsx 
 ###   CRITICAL PATH METHOD   ###
  
 Total number of Activities: 10
