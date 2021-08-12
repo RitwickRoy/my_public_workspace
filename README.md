@@ -6,4 +6,3 @@ This repository contains:
       2. Clustering operations
       3. Simple datasets that can be used to execute each of the sample codes.
   B. Sample project management python code and input dataset.
-  C. Sample Machine Learning notebooks.
